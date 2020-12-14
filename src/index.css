@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.action{
+  text-decoration: none;
+  padding: 10px;
+  color: #777;
+}
+
+.action:hover{
+  text-decoration: none;
+  color: #111;
+}
+
+.box, .box2{
+  width: 500px;
+  margin: 100px auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 2px 2px 20px grey;
+  text-align: center;
+}
+
+.box .header{
+  text-align: center;
+  color: #666;
+}
+
+.box .input{
+  padding: 5px;
+}
+
+.box .input input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-radius: 7px;
+  outline: none;
+  margin: 5px;
+}
+
+.box .login{
+  padding: 5px;
+}
+
+.box .login a{
+  display: block;
+  border: 1px solid green;
+  text-align: center;
+  background-color: #fff;
+  color: green;
+  width: 100%;
+  padding: 5px;
+  border-radius: 7px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.box .login a:hover{
+  background-color: green;
+  color: #fff;
+}
+
+.box .other{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.box .other a{
+  color: #666;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.box .other a:hover{
+  color: #111;
+  text-decoration: underline;
+}
+
+.box .other .create{
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+  color: green;
+  text-align: center;
+  background-color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.box .other .create:hover{
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+}
+
+.box .other .log{
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+.box .other .log:hover{
+  color: blue;
+}
+
+.box .check{
+  padding-left: 12px;
+  text-align: left;
+}
